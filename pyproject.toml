@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "calculator"
+version = "0.1.0"
+description = ""
+authors = ["Ander Fernandez <afernandez@decidata.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.teacher.dependencies]
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
